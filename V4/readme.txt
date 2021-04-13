@@ -1,0 +1,12 @@
+重构代码
+V3中已经在ClientHandler中完成了请求的解析工作.
+此版本对代码重构,对ClientHandler代码进行功能拆分.将解析请求的具体工作拆分到另一个类上
+来完成,是的ClientHandler只负责处理与客户端交互的整体流程.
+
+实现:
+1:新建一个包:com.webserver.http
+2:在http包中新建一个类HttpRequest
+  这个类的每一个实例用于表示客户端发送过来的一个请求.
+3:在HttpRequest中完成解析请求的工作.
+4:ClientHandler第一步解析请求的工作改为实例化HttpRequest,而实例化过程就是让HttpRequest
+  完成解析并保存客户端发送的请求内容

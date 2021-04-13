@@ -1,0 +1,4 @@
+将服务端改为多线程版本，接受多个客户端，设计同聊天室
+实现：
+1.将com.webserver.core包中创建一个类：ClientHanlder
+2.在WebServer主内中，每连接一个客户端就启动一个线程运行ClientHanlder来处理客户端交互

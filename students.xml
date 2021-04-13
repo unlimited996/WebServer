@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentmassage>
+    <stydent 学号="111">
+        <name>张三</name>
+        <id>110</id>
+    </stydent>
+</studentmassage>
