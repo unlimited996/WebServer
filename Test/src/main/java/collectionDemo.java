@@ -4,6 +4,7 @@
  *      List：有序，可重复集合
  *      Set：无序，不可重复
  * Map接口：双列数据，保存具有“Key-value”的集合
+ * Workspace associated with branch 'master' has been restored
  */
 public class collectionDemo {
 }
