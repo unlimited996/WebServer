@@ -2,8 +2,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * 比较对象的大小只能用comparable接口
- * String和包装类自动重写了compareTo方法进行比较
+ * 比较对象的大小只能用接口Comparable和Comparator
+ * String和包装类自动重写了接口Comparable中的compareTo方法进行比较this.compareTo(obj)，
+ * 实现了从小到大进行排序【this大于obj返回>0】
  *
  */
 public class compareDemo {

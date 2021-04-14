@@ -7,6 +7,8 @@ import java.time.temporal.TemporalAccessor;
  * LocalDate.now()、LocalTime.now()、LocalDateTime.now()
  * Instant.now()
  * DateTimeFormatter的3种实例化方式
+ * 格式化：日期-->字符串
+ * 解析：字符串-->日期
  *
  */
 public class JDK8Data {

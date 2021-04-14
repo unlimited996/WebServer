@@ -1,7 +1,7 @@
 import java.util.Calendar;
 import java.util.Date;
 
-public class CalenderDemo {
+public class calenderDemo {
     public static void main(String[] args) {
         //创建Calendar子类对象，调用getInstance方法
         Calendar calendar = Calendar.getInstance();
